@@ -30,7 +30,7 @@ namespace GitTest1.Controllers
         }
         public async Task<IActionResult> Login()
         {
-            ViewBag.LoginProvider = "hello";
+            ViewBag.LoginProvider = "hello world";
             return View();
         }
     }
